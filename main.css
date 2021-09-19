@@ -20,14 +20,14 @@ body {
 }
 
 main {
-	padding: 4rem 2rem;
+	/* padding: 4rem 2rem; */
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
 h1 {
 	color: var(--light);
-	font-size: 6rem;
+	font-size: 4rem;
 	font-weight: 900;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
@@ -35,7 +35,8 @@ h1 {
 
 h2 {
     color: var(--light);
-    letter-spacing: 3px;
+	font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 
 h3 {
@@ -70,22 +71,30 @@ button {
 	cursor: pointer;
 }
 
+#visual {
+	transform: translate(0px, -270px)
+}
+
 .landing {
     aspect-ratio: 900/450;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(icons/wave-haikei.svg);
+    background-image: url(imgs/wave-haikei.svg);
 }
 
 .landing-text {
-    padding: 90px 0;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
     text-align: center;
 }
 
 .landing h1 {
-    letter-spacing: 15px;
+    letter-spacing: 7px;
 }
 
 .generate-text {
