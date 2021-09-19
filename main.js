@@ -112,7 +112,6 @@ class Colour {
 		input.select();
 		document.execCommand("copy");
 		input.blur();
-
 		this.element.classList.add("copied");
 		setTimeout(() => {
 			this.element.classList.remove("copied");
